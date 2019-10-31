@@ -16,7 +16,7 @@ async function execute() {
     await client.query('insert into employees values ($1, $2)', [7, 'mey'])
 
     const { rows } = await client.query('select * from employees')
-    console.table(rows);
+    console.table(rows); //rows is a property. it's added to a var called rows
     await client.end()
     console.log('Client disconnected succesfully');
   }
