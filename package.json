@@ -12,6 +12,6 @@
   "author": "melissa casas <marimel.casas@gmail.com> (https://marimeli.github.io/)",
   "license": "MIT",
   "dependencies": {
-    "pg": "7.12.1"
+    "pg": "8.11.0"
   }
 }
